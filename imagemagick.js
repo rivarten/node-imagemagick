@@ -5,7 +5,7 @@ var childproc = require('child_process'),
 function exec2(file, args /*, options, callback */) {
   var options = { encoding: 'utf8'
                 , timeout: 0
-                , maxBuffer: 4000*4000
+                , maxBuffer: 6000*6000
                 , killSignal: 'SIGKILL'
                 , output: null
                 };
